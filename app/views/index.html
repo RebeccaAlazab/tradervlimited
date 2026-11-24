@@ -31,29 +31,22 @@
 
 {% block content %}
 
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-
-      <h1 class="govuk-heading-xl">
-        Set up a business
+<div class="page-title">
+    <h1 class="govuk-heading-xl govuk-!-margin-bottom-6">
+    Set up a business
       </h1>
-      <p>Most businesses register as a sole trader or limited company, but there are other ways to set up a business.</p>
-
-<p>The business structure you choose can affect the way you pay tax and your legal responsibilities.</p>
-
-<p>You can move from one business structure to another. It’s usually easier to move from being a sole trader to a limited company.</p>
-
-{{ govukInsetText({
-  html: 'This guide is also available <a class="govuk-link" href="#">in Welsh (Cymraeg)</a>'
-}) }}
-
-    </div>
-
   </div>
 
   <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
+    <div class="govuk-grid-column-two-thirds">
       
+      <p>Most businesses register as a sole trader or limited company, but there are other ways to set up a business.</p>
+    <p>The business structure you choose can affect the way you pay tax and your legal responsibilities.</p>
+    <p>You can move from one business structure to another. It’s usually easier to move from being a sole trader to a limited company.</p>
+    
+    {{ govukInsetText({
+  html: 'This guide is also available <a class="govuk-link" href="#">in Welsh (Cymraeg)</a>' }) }}
+
       <h2 class="govuk-heading-m">
         Sole traders
       </h2>
@@ -215,10 +208,8 @@ picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
 
 
       <nav class="govuk-prototype-kit-common-templates-pagination" role="navigation" aria-label="Pagination">
-    </div>
-
-    
-    <div class="govuk-grid-column-one-third">
+</div>
+      <div class="govuk-grid-column-one-third">
 
       <aside class="govuk-prototype-kit-common-templates-related-items" role="complementary">
         <h2 class="govuk-heading-s" id="subsection-title">
@@ -258,6 +249,8 @@ picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
       </aside>
 
     </div>
+
+    
 
   </main>
 </div>
